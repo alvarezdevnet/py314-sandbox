@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.class
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# --- Entornos y Configuración ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+.idea/
+.devcontainer/
+
+# --- Datos (Nunca subir datasets al repo) ---
+data/
+output/
+*.csv
+*.xlsx
+*.json
+*.pkl
+*.h5
+
+# --- Logs y OS ---
+*.log
+.DS_Store
